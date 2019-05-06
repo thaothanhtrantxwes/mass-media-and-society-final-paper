@@ -193,8 +193,6 @@ body {
 
 
 .grade::before {
-    display: none;
-    
     content: "";
     position: absolute;
     
@@ -209,9 +207,7 @@ body {
     right: 40px;
 }
 
-.grade::after {
-    display: none;
-    
+.grade::after {    
     content: "";
     position: absolute;
     
